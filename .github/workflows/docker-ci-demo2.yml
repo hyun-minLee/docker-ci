@@ -6,8 +6,8 @@ branches:
 - 'master' # **(all branch), - master 만 사용
 tags:
 - '**'
-jobs: # 작업 지정
-push: # 작업 이름
+jobs: 
+push:
 runs-on: ubuntu-latest # 빌드에 사용할 ubuntu:latest 머신 시작
 steps:
 - name: Checkout # runner에 저장소 코드를 다운로드하고
